@@ -77,6 +77,7 @@ int password_digit(char *password){
         return 0;
 }
 
+// Passsword max 12
 int password_max_length(char *password){
        if(strlen(password) >= 12){
                 return 20;
