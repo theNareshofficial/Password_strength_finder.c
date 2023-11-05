@@ -29,15 +29,12 @@ int check_password(char *password){
 
 // password miniume 8
 int password_min_length(char *password){
-
-
         if(strlen(password) >= 8){
                 return 20;
         }
         else{
                 return 0;
-        }
-        
+        }  
 }
 
 int password_upper(char *password){
@@ -45,7 +42,6 @@ int password_upper(char *password){
                 if(isupper(password[i])){
                         return 10;
                 }
-                
         }
         return 0;
 }
