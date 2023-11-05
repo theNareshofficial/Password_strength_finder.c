@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "password.c" //
+#include "password.c" // custom file
 
 int main()
 {
